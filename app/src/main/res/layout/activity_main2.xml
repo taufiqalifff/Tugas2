@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad2"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="News"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginRight="130dp"
+        android:src="@drawable/mu"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-110dp"
+        android:src="@drawable/milan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="#A6023A"
+        android:layout_gravity="center_horizontal"
+        android:text="Manchester United dan Milan, yang sama-sama berjulukan Setan Merah, saat ini sama-sama menempati peringkat 2 klasemen sementara di liga masing-masing, tertinggal dari rival sekota mereka. Red Devils defisit 11 poin dari Manchester City di Premier League, sedangkan Il Diavolo (The Devil) tertinggal enam poin dari Inter Milan di Serie A."/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Home"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:onClick="act1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="About"
+        android:textSize="20dp"
+        android:onClick="act4"/>
+
+
+
+</LinearLayout>

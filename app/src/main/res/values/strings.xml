@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task 2</string>
+    <string name="ini_activity_2">Ini activity 2</string>
+    <string name="about">ABOUT</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="h071191010">H071191010</string>
+    <string name="makassar_01_10_2001">Makassar 01-10-2001</string>
+    <string name="muh_taufiq_alif_rahman">Muh. Taufiq Alif Rahman</string>
+</resources>
